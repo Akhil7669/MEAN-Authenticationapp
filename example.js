@@ -8,6 +8,6 @@ function greet(callback) {
 }
 greet(function(obj){
     console.log(obj.name ,'', obj.name2 ,'\n');
-    console.log("Ans: A function passed to some other function, will be invoked ar some point");
+    console.log(" A function passed to some other function, will be invoked ar some point");
     
 });
